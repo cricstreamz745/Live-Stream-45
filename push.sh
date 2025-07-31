@@ -1,4 +1,4 @@
-ffmpeg -re -i "http://mxonlive.atwebpages.com/filex/index.php/247167.m3u8" \
+ffmpeg -re -i "http://6f1f83d9.akadatel.com/iptv/ET85VGCD8YTWLC/9258/index.m3u8" \
 -map 0:v:0 -map 0:a:0 \
 -c:v libx264 -preset ultrafast -tune zerolatency \
 -c:a aac -f flv \
