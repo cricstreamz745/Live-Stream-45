@@ -1,0 +1,10 @@
+{
+  "name": "rtmp-restream",
+  "version": "1.0.0",
+  "description": "Restream m3u8 to RTMP using FFmpeg",
+  "main": "server.js",
+  "scripts": {
+    "start": "bash push.sh & node server.js"
+  },
+  "dependencies": {}
+}
